@@ -7,7 +7,7 @@ https://github.com/xkisle00/Digital-electronics-1
 
 ## 2. Verification of De Morgan's laws :
 
-### Code :
+#### Code :
 
 ```vhdl
 
@@ -20,10 +20,10 @@ begin
 end architecture dataflow;
 
 ```
-### Screeshot :
+#### Screeshot :
 ![De Morganov zakon](/obrazky/screen1.png)
 
-### Table :
+#### Table :
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -36,15 +36,15 @@ end architecture dataflow;
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
 
-### Link na EDA playground :
+#### Link na EDA playground :
 https://www.edaplayground.com/x/KWay
 
 
 ## 3. Verification of Distributive laws :
 
-### Code :
+#### Code :
 
-### Screeshot :
+#### Screeshot :
 
-### Link na EDA playground :
+#### Link na EDA playground :
 
