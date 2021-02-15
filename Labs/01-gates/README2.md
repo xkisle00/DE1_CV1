@@ -1,6 +1,6 @@
 # De Morganov zákon
 
-![Screenshot De Morganovho zákona](obrázky/screen1.png)
+![Screenshot De Morganovho zákona](Obrázky/screen1.png)
 
 
 https://www.edaplayground.com/x/KWay
