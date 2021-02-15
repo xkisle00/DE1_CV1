@@ -1,3 +1,6 @@
-# Nadpis 1
+# De Morgans laws
+
+
+
 
 https://www.edaplayground.com/x/KWay
