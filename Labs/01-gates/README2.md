@@ -1,4 +1,4 @@
-# De Morganov zakon
+# **Lab assignment**
 
 ```vhdl
 
