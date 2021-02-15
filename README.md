@@ -1,6 +1,6 @@
 # DE1_CV1
-## cvčenia na počítači
-### úloha č.1
+## cvičenie na počítači
+### part1
 
 *italický text*
 
