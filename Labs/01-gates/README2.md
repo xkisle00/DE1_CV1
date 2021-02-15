@@ -3,6 +3,8 @@
 ## 1. Link to my repository :
 https://github.com/xkisle00/Digital-electronics-1
 
+
+
 ## 2. Verification of De Morgan's laws :
 
 ### Code :
@@ -18,8 +20,8 @@ begin
 end architecture dataflow;
 
 ```
-
-![**De Morganov zakon**](/obrazky/screen1.png)
+### Screeshot :
+![De Morganov zakon](/obrazky/screen1.png)
 
 ### Table :
 
@@ -36,3 +38,13 @@ end architecture dataflow;
 
 ### Link na EDA playground :
 https://www.edaplayground.com/x/KWay
+
+
+## 3. Verification of Distributive laws :
+
+### Code :
+
+### Screeshot :
+
+### Link na EDA playground :
+
