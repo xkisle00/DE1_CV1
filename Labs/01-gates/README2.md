@@ -12,7 +12,7 @@ end architecture dataflow;
 
 ```
 
-![De Morganov zakon](obrazky/screen1.png)
+![De Morganov zakon](/obrazky/screen1.png)
 
 ## Link na EDA playground :
 https://www.edaplayground.com/x/KWay
