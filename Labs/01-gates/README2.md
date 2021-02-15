@@ -47,4 +47,4 @@ https://www.edaplayground.com/x/KWay
 #### Screeshot :
 
 #### Link na EDA playground :
-
+https://www.edaplayground.com/x/7urf
