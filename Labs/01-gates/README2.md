@@ -16,3 +16,14 @@ end architecture dataflow;
 
 ## Link na EDA playground :
 https://www.edaplayground.com/x/KWay
+
+| **c** | **b** |**a** | **f(c,b,a)** |
+| :-: | :-: | :-: | :-: |
+| 0 | 0 | 0 |  |
+| 0 | 0 | 1 |  |
+| 0 | 1 | 0 |  |
+| 0 | 1 | 1 |  |
+| 1 | 0 | 0 |  |
+| 1 | 0 | 1 |  |
+| 1 | 1 | 0 |  |
+| 1 | 1 | 1 |  |
