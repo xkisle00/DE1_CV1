@@ -45,6 +45,7 @@ https://www.edaplayground.com/x/KWay
 #### Code :
 
 #### Screeshot :
+![Distributive laws](/obrazky/screen2.png)
 
 #### Link na EDA playground :
 https://www.edaplayground.com/x/7urf
