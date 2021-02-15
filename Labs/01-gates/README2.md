@@ -1,5 +1,12 @@
 # **Lab assignment**
 
+## 1. Link to my repository :
+https://github.com/xkisle00/Digital-electronics-1
+
+## 2. Verification of De Morgan's laws :
+
+### Code :
+
 ```vhdl
 
 architecture dataflow of gates is
@@ -12,10 +19,9 @@ end architecture dataflow;
 
 ```
 
-![De Morganov zakon](/obrazky/screen1.png)
+![**De Morganov zakon**](/obrazky/screen1.png)
 
-## Link na EDA playground :
-https://www.edaplayground.com/x/KWay
+### Table :
 
 | **c** | **b** |**a** | **f(c,b,a)** |
 | :-: | :-: | :-: | :-: |
@@ -27,3 +33,6 @@ https://www.edaplayground.com/x/KWay
 | 1 | 0 | 1 |  |
 | 1 | 1 | 0 |  |
 | 1 | 1 | 1 |  |
+
+### Link na EDA playground :
+https://www.edaplayground.com/x/KWay
