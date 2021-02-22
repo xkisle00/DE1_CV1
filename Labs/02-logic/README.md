@@ -26,7 +26,7 @@
 ### SoP
 ![De Morganov zakon](/obrazky/CodeCogsEqn.gif)
 ### PoS
-![De Morganov zakon](/obrazky/CodeCogsEqn(2).gif)
+![De Morganov zakon](/obrazky/lessPoS.gif)
 
 
 ## A 2-bit comparator
