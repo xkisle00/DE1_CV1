@@ -31,9 +31,12 @@
 
 ## A 2-bit comparator
 
-### Karnaugh maps
+### Karnaugh maps :
+#### K-map for the "equals" function :
 ![De Morganov zakon](/obrazky/B=A.png)
+#### K-map for simplified SoP form of the "greater than" function :
 ![De Morganov zakon](/obrazky/BVA.png)
+#### K-map for simplified PoS form of the "less than" function :
 ![De Morganov zakon](/obrazky/BAA.png)
 
 ### Equations
