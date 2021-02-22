@@ -42,6 +42,7 @@
 
 ### Equations
 ![De Morganov zakon](/obrazky/greater_SoP.gif)
+
 ![De Morganov zakon](/obrazky/less_PoS.gif)
 
 ### Link : 
