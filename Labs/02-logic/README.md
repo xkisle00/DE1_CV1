@@ -2,7 +2,7 @@
 
 ## 1. Preparation tasks
 
-### Truth table :
+#### Truth table :
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -23,34 +23,32 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
-### SoP
-![De Morganov zakon](/obrazky/CodeCogsEqn.gif)
-### PoS
-![De Morganov zakon](/obrazky/lessPoS.gif)
-
+#### canonical SoP (Sum of Products) for "equals" functions :
+![SoP equals](/obrazky/CodeCogsEqn.gif)
+#### canonical PoS (Product of Sums) for "less than" functions :
+![PoS less](/obrazky/lessPoS.gif)
 
 ## 2. A 2-bit comparator
 
-### K-map for the "equals" function :
-![De Morganov zakon](/obrazky/B=A.png)
+#### K-map for the "equals" function :
+![equals](/obrazky/B=A.png)
 
-### K-map for simplified SoP form of the "greater than" function :
+#### K-map for simplified SoP form of the "greater than" function :
 ![greater than](/obrazky/BVA.png)                               
 
-### K-map for simplified PoS form of the "less than" function :
+#### K-map for simplified PoS form of the "less than" function :
 ![less than](/obrazky/BAA.png) 
 
-### Equations
+#### Equations
 ![greater](/obrazky/greater_SoP.gif)
 
 ![less](/obrazky/less_PoS.gif)
 
-### Link : 
-https://www.edaplayground.com/x/tEsu
+#### Link : https://www.edaplayground.com/x/tEsu
 
 ## 3. A 4-bit binary comparator
 
-### VHDL architecture from design file :
+#### VHDL architecture from design file :
 ```vhdl
 library ieee;
 use ieee.std_logic_1164.all;
@@ -89,7 +87,7 @@ begin
 end architecture Behavioral;
 ```
 
-### VHDL stimulus process from testbench file :
+#### VHDL stimulus process from testbench file :
 ```vhdl
 entity tb_comparator_2bit is
     -- Entity of testbench is always empty
@@ -209,11 +207,10 @@ begin
 end architecture testbench;
 ```
 
-### Simulator console output :
+#### Simulator console output :
 ![error](/obrazky/error.png)
 
-### Link :
-https://www.edaplayground.com/x/8Tg3
+#### Link : https://www.edaplayground.com/x/8Tg3
 
 
 
