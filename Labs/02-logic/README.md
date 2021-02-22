@@ -32,6 +32,9 @@
 ## A 2-bit comparator
 
 ### Karnaugh maps
+![De Morganov zakon](/obrazky/B=A.png)
+![De Morganov zakon](/obrazky/BVA.png)
+![De Morganov zakon](/obrazky/BAA.png)
 
 ### Equations
 
