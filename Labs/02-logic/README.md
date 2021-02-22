@@ -53,16 +53,12 @@
 library ieee;
 use ieee.std_logic_1164.all;
 
-------------------------------------------------------------------------
--- Entity declaration for 4-bit binary comparator
-------------------------------------------------------------------------
+
 entity comparator_4bit is
     port(
         a_i           : in  std_logic_vector(4 - 1 downto 0);
         b_i           : in  std_logic_vector(4 - 1 downto 0);
 
-
-        -- COMPLETE ENTITY DECLARATION
         
         B_greater_A_o : out std_logic;
         B_equals_A_o  : out std_logic;
@@ -70,9 +66,7 @@ entity comparator_4bit is
     );
 end entity comparator_4bit;
 
-------------------------------------------------------------------------
--- Architecture body for 4-bit binary comparator
-------------------------------------------------------------------------
+
 architecture Behavioral of comparator_4bit is
 begin
 
@@ -90,9 +84,7 @@ entity tb_comparator_4bit is
     -- Entity of testbench is always empty
 end entity tb_comparator_4bit;
 
-------------------------------------------------------------------------
--- Architecture body for testbench
-------------------------------------------------------------------------
+
 architecture testbench of tb_comparator_4bit is
 
     -- Local signals
@@ -113,9 +105,7 @@ begin
             B_less_A_o    => s_B_less_A
         );
 
-    --------------------------------------------------------------------
 
-    --------------------------------------------------------------------
     p_stimulus : process
     begin
         -- Report a note at the begining of stimulus process
@@ -202,7 +192,7 @@ end architecture testbench;
 ```
 
 #### Simulator console output :
-![error](/obrazky/error.png)
+![error](/obrazky/error_4bit.png)
 
 #### Link : https://www.edaplayground.com/x/8Tg3
 
