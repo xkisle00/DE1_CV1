@@ -24,6 +24,7 @@
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
 ### SoP
+![De Morganov zakon](/obrazky/CodeCogsEqn.gif)
 ### PoS
 
 ## A 2-bit comparator
