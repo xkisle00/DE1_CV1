@@ -1,7 +1,8 @@
-# **Lab assignment**
+# **Lab 2: Combinational logic**
 
-## Preparation tasks (done before the lab at home)
+## Preparation tasks
 
+### Truth table
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -22,5 +23,28 @@
 | 14 | 1 1 | 1 0 | 1 | 0 | 0 |
 | 15 | 1 1 | 1 1 | 0 | 1 | 0 |
 
+### SoP
+### PoS
 
+## A 2-bit comparator
+
+### Karnaugh maps
+
+### Equations
+
+### Link : 
 https://www.edaplayground.com/x/tEsu
+
+### A 4-bit binary comparator
+
+### VHDL architecture from design file
+
+### VHDL stimulus process from testbench file
+
+### Simulator console output
+
+### Link :
+
+
+
+
