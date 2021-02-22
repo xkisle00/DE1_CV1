@@ -1,8 +1,8 @@
 # **Lab 2: Combinational logic**
 
-## Preparation tasks
+## 1. Preparation tasks
 
-### Truth table
+### Truth table :
 
 | **Dec. equivalent** | **B[1:0]** | **A[1:0]** | **B is greater than A** | **B equals A** | **B is less than A** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
@@ -89,7 +89,7 @@ begin
 end architecture Behavioral;
 ```
 
-### VHDL stimulus process from testbench file
+### VHDL stimulus process from testbench file :
 ```vhdl
 entity tb_comparator_2bit is
     -- Entity of testbench is always empty
@@ -209,7 +209,8 @@ begin
 end architecture testbench;
 ```
 
-### Simulator console output
+### Simulator console output :
+![error](/obrazky/error.png)
 
 ### Link :
 https://www.edaplayground.com/x/8Tg3
