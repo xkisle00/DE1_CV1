@@ -34,18 +34,15 @@
 ### K-map for the "equals" function :
 ![De Morganov zakon](/obrazky/B=A.png)
 
-
 ### K-map for simplified SoP form of the "greater than" function :
 ![De Morganov zakon](/obrazky/BVA.png)
-![De Morganov zakon](/obrazky/greater_SoP.gif)
-
 
 ### K-map for simplified PoS form of the "less than" function :
-![De Morganov zakon](/obrazky/BAA.png)
-![De Morganov zakon](/obrazky/less_PoS.gif)
-
+![De Morganov zakon](/obrazky/BAA.png) 
 
 ### Equations
+![De Morganov zakon](/obrazky/greater_SoP.gif)
+![De Morganov zakon](/obrazky/less_PoS.gif)
 
 ### Link : 
 https://www.edaplayground.com/x/tEsu
