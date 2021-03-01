@@ -100,7 +100,8 @@ Následne zvolíme znovu **next**.
 Musíme dbať na to aby sme mali zvolený **RTL project** a zvolíme **next**.
 ![error](/obrazky/project_sources.png)
 V tomto okne musíme dohliadnúť aby sme mali zvolený **target language** a **simulation language** ako **VHDL**,zvolíme **next**.
-Ak máme oba zvolené za VHDL možeme prejsť k vytvoreniu **source file** a to tak že klikneme na tlačítko **Create File** a zobrazí sa nám nasledovné okno :
+Ak máme oba zvolené za VHDL možeme prejsť k vytvoreniu **source file** a to tak že klikneme na tlačítko 
+**Create File** a zobrazí sa nám nasledovné okno :
 ![error](/obrazky/project_create_sources.png)
 Za **file type** zvolíme **VHDL** a zadáme **File name** podla potreby a následne klikneme tlačidlo **OK**.
 Malo by to vyzerať nasledovne:
