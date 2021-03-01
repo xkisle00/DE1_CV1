@@ -90,4 +90,38 @@ end architecture Behavioral;
 ![error](/obrazky/DE1_CV3.png)
 
 ## 3. A Vivado tutorial :
+file->project->new
+![error](/obrazky/new_project.png)
+next
+![error](/obrazky/project_name.png)
+set name and location
+next
+![error](/obrazky/project_type.png)
+rtl project !
+next
+![error](/obrazky/project_sources.png)
+VHDL target language and simulation language
+
+![error](/obrazky/project_create_sources.png)
+vhld !
+should look like this
+![error](/obrazky/project_creatd_sources.png)
+next
+
+![error](/obrazky/project_constrains.png)
+we can create constrains if we want to with button create files but it is not nesesary because we can do that later
+next
+clic boards
+![error](/obrazky/project_boards.png)
+select wanted board and then next and finish
+
+
+
+
+
+
+
+
+
+
 
