@@ -90,6 +90,8 @@ end architecture Behavioral;
 ![error](/obrazky/DE1_CV3.png)
 
 ## 3. A Vivado tutorial :
+
+#### Project creation :
 Po otvorení Vivado zvolíme cestu **file -> project -> new** a otvorí sa nám nasledovné okno.
 
 ![error](/obrazky/new_project.png)
@@ -129,8 +131,19 @@ V nasledujúcom okne klikneme na **boards** a vyberieme dosku ktorú potrebujeme
 
 Ako posledné zvolíme **Next** a ďalšie okno nás oboznámi so sumarizáciou vytvoreného projektu a môžme zvoliť **Finish**.
 
+#### Adding files :
+Ak chceme pridať do nášho projektu file zvolíme cestu **file -> add sources** a následne sa nám zobrazí toto okno :
 
+![error](/obrazky/project_add_sources.png)
 
+V tomto okne si môžeme zvoliť aký file chceme do projektu pridať.
+
+#### Running simulation :
+Ak by sme chceli spustit simuláciu poslúži nám na to tlačidlo nalavom okraji :
+
+![error](/obrazky/project_run.png)
+
+**SIMULATION -> Run simulation**
 
 
 
