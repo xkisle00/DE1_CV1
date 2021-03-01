@@ -100,9 +100,10 @@ Následne zvolíme znovu **next**.
 Musíme dbať na to aby sme mali zvolený **RTL project** a zvolíme **next**.
 ![error](/obrazky/project_sources.png)
 V tomto okne musíme dohliadnúť aby sme mali zvolený **target language** a **simulation language** ako **VHDL**,zvolíme **next**.
-Ak máme oba zvolené za VHDL možeme prejsť k vytvoreniu **source file** a to tak že klikneme na tlačítko 
-**Create File** a zobrazí sa nám nasledovné okno :
+Ak máme oba zvolené za VHDL možeme prejsť k vytvoreniu **source file** a to tak že klikneme na tlačítko **Create File** a zobrazí sa nám nasledovné okno :
+
 ![error](/obrazky/project_create_sources.png)
+
 Za **file type** zvolíme **VHDL** a zadáme **File name** podla potreby a následne klikneme tlačidlo **OK**.
 Malo by to vyzerať nasledovne:
 ![error](/obrazky/project_creatd_sources.png)
@@ -111,7 +112,7 @@ Zvolíme **next**.
 V ďalšom okne máme možnosť pridať **constrains** ak chceme, nieje to však nutnosť pretože tento súbor vieme pridať aj neskor po vytvorení projektu. Zvolíme teda **next**.
 V nasledujúcom okne klikneme na **boards** a vyberieme dosku ktorú potrebujeme.
 ![error](/obrazky/project_boards.png)
-ako posledné zvolíme **Next** a ďalšie okno nás oboznámi so sumarizáciou vytvoreného projektu a môžme zvoliť **Finish**.
+Ako posledné zvolíme **Next** a ďalšie okno nás oboznámi so sumarizáciou vytvoreného projektu a môžme zvoliť **Finish**.
 
 
 
