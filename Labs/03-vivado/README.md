@@ -139,11 +139,11 @@ Ak chceme pridať do nášho projektu file zvolíme cestu **file -> add sources*
 V tomto okne si môžeme zvoliť aký file chceme do projektu pridať.
 
 #### Running simulation :
-Ak by sme chceli spustit simuláciu poslúži nám na to tlačidlo nalavom okraji :
+Ak by sme chceli spustit simuláciu poslúži nám na to tlačidlo nalavom okraji : **SIMULATION -> Run simulation**
 
 ![error](/obrazky/project_run.png)
 
-**SIMULATION -> Run simulation**
+
 
 
 
