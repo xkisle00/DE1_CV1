@@ -22,7 +22,7 @@ end entity tb_mux_2bit_4to1;
 ------------------------------------------------------------------------
 -- Architecture body for testbench
 ------------------------------------------------------------------------
-architecture testbench of tb_mux_2bit_4to1 is
+ architecture testbench of tb_mux_2bit_4to1 is
 
     -- Local signals
     signal s_a       : std_logic_vector(2 - 1 downto 0);
