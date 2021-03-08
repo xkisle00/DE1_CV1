@@ -1,6 +1,6 @@
-#Lab assignment
-##1.Preparation tasks :
-####Table with connection of 7-segment displays on Nexys A7 board :
+# Lab assignment
+## 1.Preparation tasks :
+#### Table with connection of 7-segment displays on Nexys A7 board :
 | Hex | Inputs | A | B | C | D | E | F | G |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -20,16 +20,16 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-####Decoder truth table for common anode 7-segment display:
-##Seven-segment display decoder:
+#### Decoder truth table for common anode 7-segment display:
+## Seven-segment display decoder:
 
 
-####Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting
-####Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting and asserts
-####Screenshot with simulated time waveforms; always display all inputs and outputs
-####Listing of VHDL code from source file top.vhd with 7-segment module instantiation
+#### Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting
+#### Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting and asserts
+#### Screenshot with simulated time waveforms; always display all inputs and outputs
+#### Listing of VHDL code from source file top.vhd with 7-segment module instantiation
 
-##LED(7:4) indicators:
+## LED(7:4) indicators:
 
-####Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting
-####Screenshot with simulated time waveforms; always display all inputs and output
+#### Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting
+#### Screenshot with simulated time waveforms; always display all inputs and output
