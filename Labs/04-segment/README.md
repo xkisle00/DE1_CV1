@@ -1,6 +1,28 @@
 # Lab assignment
 ## 1.Preparation tasks :
 #### Table with connection of 7-segment displays on Nexys A7 board :
+
+| Cathode/Anode name | Connection |
+| :-: | :-: |
+| AN0 | J17 |
+| AN1 | J18 |
+| AN2 | T9 |
+| AN3 | J14 |
+| AN4 | P14 |
+| AN5 | T14 |
+| AN6 | K2 |
+| AN7 | U13 |
+| CA | T10 | 
+| CB | R10 | 
+| CC | K16 | 
+| CD | K13 | 
+| CE | P15 | 
+| CF | T11 | 
+| CG | L18 | 
+| DP | H15 | 
+
+#### Decoder truth table for common anode 7-segment display:
+
 | Hex | Inputs | A | B | C | D | E | F | G |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
@@ -20,7 +42,6 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-#### Decoder truth table for common anode 7-segment display:
 ## Seven-segment display decoder:
 
 
@@ -150,26 +171,28 @@ hex2seg : entity work.hex_7seg
 
 ## LED(7:4) indicators:
 
-#### Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting :
+#### Truth table :
 
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0000 |  |  |  |  |
-| 1 | 0001 |  |  |  |  |
-| 2 |      |  |  |  |  |
-| 3 |      |  |  |  |  |
-| 4 |      |  |  |  |  |
-| 5 |      |  |  |  |  |
-| 6 |      |  |  |  |  |
-| 7 |      |  |  |  |  |
-| 8 | 1000 |  |  |  |  |
-| 9 |      |  |  |  |  |
-| A |      |  |  |  |  |
-| b |      |  |  |  |  |
-| C |      |  |  |  |  |
-| d |      |  |  |  |  |
-| E | 1110 |  |  |  |  |
-| F | 1111 |  |  |  |  |
+| 0 | 0000 | 0 | 1 | 1 | 1 |
+| 1 | 0001 | 1 | 1 | 0 | 0 |
+| 2 | 0010 | 1 | 1 | 1 | 0 |
+| 3 | 0011 | 1 | 1 | 0 | 1 |
+| 4 | 0100 | 1 | 1 | 1 | 0 |
+| 5 | 0101 | 1 | 1 | 0 | 1 |
+| 6 | 0110 | 1 | 1 | 1 | 1 |
+| 7 | 0111 | 1 | 1 | 0 | 1 |
+| 8 | 1000 | 1 | 1 | 1 | 0 |
+| 9 | 1001 | 1 | 1 | 0 | 1 |
+| A | 1010 | 1 | 0 | 1 | 1 |
+| b | 1011 | 1 | 0 | 0 | 1 |
+| C | 1100 | 1 | 0 | 1 | 1 |
+| d | 1101 | 1 | 0 | 0 | 1 |
+| E | 1110 | 1 | 0 | 1 | 1 |
+| F | 1111 | 1 | 0 | 0 | 1 |
+
+#### Listing of VHDL code for LEDs(7:4) with syntax highlighting :
 
 #### Screenshot with simulated time waveforms; always display all inputs and output :
 ![signal](/obrazky/top_Screen.png)
