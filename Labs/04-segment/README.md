@@ -26,26 +26,6 @@
 
 #### Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting :
 ```vhdl
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
-entity hex_7seg is
-    Port ( 
-        
-           hex_i : in   STD_LOGIC_VECTOR (4 - 1 downto 0);
-           seg_o : out  STD_LOGIC_VECTOR (7 - 1 downto 0)
-           
-         );
-end hex_7seg;
 
 architecture Behavioral of hex_7seg is
 
@@ -105,33 +85,10 @@ p_7seg_decoder : process(hex_i)
         end case;
     end process p_7seg_decoder;
 
-
-end Behavioral;
 ```
 #### Listing of VHDL stimulus process from testbench file tb_hex_7seg.vhd with syntax highlighting and asserts :
 ```vhdl
 
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
-
-entity tb_hex_7seg is
---  Port ( );
-end tb_hex_7seg;
-
-architecture Behavioral of tb_hex_7seg is
-
-    signal s_hex           : std_logic_vector(4 - 1 downto 0);
-    signal s_seg           : std_logic_vector(7 - 1 downto 0);
-
-
-begin
-    uut_hex_7seg : entity work.hex_7seg
-        port map(
-            hex_i           => s_hex,
-            seg_o           => s_seg
-        );
-        
-        
         p_stimulus : process
         begin
         report "Stimulus process started" severity note;
@@ -173,13 +130,47 @@ begin
         wait;
     end process p_stimulus;
         
-end Behavioral;
 ```
 #### Screenshot with simulated time waveforms; always display all inputs and outputs :
 ![signal](/obrazky/hex_7seg_Screen.png)
 #### Listing of VHDL code from source file top.vhd with 7-segment module instantiation :
+```vhdl
+hex2seg : entity work.hex_7seg
+        port map(
+            hex_i    => SW,
+            seg_o(6) => CA,
+            seg_o(5) => CB,
+            seg_o(4) => CC,
+            seg_o(3) => CD,
+            seg_o(2) => CE,
+            seg_o(1) => CF,
+            seg_o(0) => CG
+        );
+```
 
 ## LED(7:4) indicators:
 
 #### Truth table and listing of VHDL code for LEDs(7:4) with syntax highlighting :
+
+| **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| 0 | 0000 |  |  |  |  |
+| 1 | 0001 |  |  |  |  |
+| 2 |      |  |  |  |  |
+| 3 |      |  |  |  |  |
+| 4 |      |  |  |  |  |
+| 5 |      |  |  |  |  |
+| 6 |      |  |  |  |  |
+| 7 |      |  |  |  |  |
+| 8 | 1000 |  |  |  |  |
+| 9 |      |  |  |  |  |
+| A |      |  |  |  |  |
+| b |      |  |  |  |  |
+| C |      |  |  |  |  |
+| d |      |  |  |  |  |
+| E | 1110 |  |  |  |  |
+| F | 1111 |  |  |  |  |
+
 #### Screenshot with simulated time waveforms; always display all inputs and output :
+![signal](/obrazky/top_Screen.png)
+
