@@ -1,4 +1,4 @@
-# Lab assignment
+# 4. Lab assignment
 ## 1.Preparation tasks :
 #### Table with connection of 7-segment displays on Nexys A7 board :
 
@@ -42,7 +42,7 @@
 | E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
 | F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
 
-## Seven-segment display decoder:
+## 2. Seven-segment display decoder:
 
 
 #### Listing of VHDL architecture from source file hex_7seg.vhd with syntax highlighting :
@@ -169,7 +169,7 @@ hex2seg : entity work.hex_7seg
         );
 ```
 
-## LED(7:4) indicators:
+## 3. LED(7:4) indicators:
 #### Truth table :
 
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
