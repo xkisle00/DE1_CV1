@@ -2,7 +2,7 @@
 ## 1.Preparation tasks :
 #### Table with connection of 7-segment displays on Nexys A7 board :
 
-| Cathode/Anode name | Connection |
+| Display | Connection |
 | :-: | :-: |
 | AN7 | U13 |
 | AN6 | K2 |
