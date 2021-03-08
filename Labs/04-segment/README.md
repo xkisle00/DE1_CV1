@@ -4,6 +4,14 @@
 
 | Cathode/Anode name | Connection |
 | :-: | :-: |
+| CA | T10 | 
+| CB | R10 | 
+| CC | K16 | 
+| CD | K13 | 
+| CE | P15 | 
+| CF | T11 | 
+| CG | L18 | 
+| DP | H15 |
 | AN0 | J17 |
 | AN1 | J18 |
 | AN2 | T9 |
@@ -12,14 +20,7 @@
 | AN5 | T14 |
 | AN6 | K2 |
 | AN7 | U13 |
-| CA | T10 | 
-| CB | R10 | 
-| CC | K16 | 
-| CD | K13 | 
-| CE | P15 | 
-| CF | T11 | 
-| CG | L18 | 
-| DP | H15 | 
+
 
 #### Decoder truth table for common anode 7-segment display:
 
