@@ -170,16 +170,6 @@ hex2seg : entity work.hex_7seg
 ```
 
 ## LED(7:4) indicators:
-```vhdl
- AN <= b"1111_0111";
-
-    LED(3 downto 0) <= SW;
-    LED(4)  <= '1'   when (SW = "0000") else '0';
-    LED(5)  <= '1'   when (SW > "1001") else '0';
-    LED(6)  <= '1'   when (SW = "0001" or SW = "0011" or SW = "0101" or SW = "0111" or SW = "1001" or SW = "1011" or SW = "1101" or SW = "1111") else '0';
-    LED(7)  <= '1'   when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
-```
-
 #### Truth table :
 
 | **Hex** | **Inputs** | **LED4** | **LED5** | **LED6** | **LED7** |
@@ -202,6 +192,15 @@ hex2seg : entity work.hex_7seg
 | F | 1111 | 1 | 0 | 0 | 1 |
 
 #### Listing of VHDL code for LEDs(7:4) with syntax highlighting :
+```vhdl
+ AN <= b"1111_0111";
+
+    LED(3 downto 0) <= SW;
+    LED(4)  <= '1'   when (SW = "0000") else '0';
+    LED(5)  <= '1'   when (SW > "1001") else '0';
+    LED(6)  <= '1'   when (SW = "0001" or SW = "0011" or SW = "0101" or SW = "0111" or SW = "1001" or SW = "1011" or SW = "1101" or SW = "1111") else '0';
+    LED(7)  <= '1'   when (SW = "0001" or SW = "0010" or SW = "0100" or SW = "1000") else '0';
+```
 
 #### Screenshot with simulated time waveforms; always display all inputs and output :
 ![signal](/obrazky/top_Screen.png)
