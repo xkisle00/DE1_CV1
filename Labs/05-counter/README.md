@@ -101,7 +101,7 @@ end architecture testbench;
 
 #### Screenshot with simulated time waveforms; always display all inputs and outputs
 
-![Screenshot](/Images/05-counter/scr1.png)
+![signal](/obrazky/cv5_screen.png)
 
 
 ## 3. Top level. Submit:
