@@ -173,6 +173,6 @@ end architecture Behavioral;
 #### 4-bit counter
 ![signal](/obrazky/cv5_nakreslene1.png)
 
-#### 4-bit counter 16-bit counter
+#### 16-bit counter
 ![signal](/obrazky/cv5_nakreslene2.png)
 
