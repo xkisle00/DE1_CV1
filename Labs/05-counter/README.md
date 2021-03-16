@@ -11,23 +11,6 @@
 | BTNC | N17 | HIGH | LOW |
 
 #### Table with calculated values.
- | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
-  | :-: | :-: | :-: | :-: |
-  | 2&nbsp;ms | 200 000 | `x"3_0d40"` | `b"0011_0000_1101_0100_0000"` |
-  | 4&nbsp;ms |
-  | 10&nbsp;ms |
-  | 250&nbsp;ms |
-  | 500&nbsp;ms |
-  | 1&nbsp;sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
-
-## 2. Bidirectional counter. Submit:
-#### Listing of VHDL code of the process `p_cnt_up_down` with syntax highlighting.
-#### Listing of VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` with syntax highlighting and asserts,
-#### Screenshot with simulated time waveforms; always display all inputs and outputs,
-
-## 3. Top level. Submit:
-#### Listing of VHDL code from source file `top.vhd` with all instantiations for the 4-bit bidirectional counter.
-#### Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments on your own. The image can be drawn on a computer or by hand.
 | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
 | :-: | :-: | :-: | :-: |
 | 2&nbsp;ms | 200 000 | `x"3_0d40"` | `b"0011_0000_1101_0100_0000"` |
@@ -37,11 +20,9 @@
 | 500&nbsp;ms | 50 000 000 | `x"2FA_F080"` | `b"0010_1111_1010_1111_0000_1000_0000"` |
 | 1&nbsp;sec | 100 000 000 | `x"5F5_E100"` | `b"0101_1111_0101_1110_0001_0000_0000"` |
 
-# 2. Cvičenie
 
-## Bidirectional counter
-
-### VHDL architecture (`cnt_up_down`)
+## 2. Bidirectional counter. Submit:
+#### Listing of VHDL code of the process `p_cnt_up_down` with syntax highlighting.
 
 ```vhdl
 begin
@@ -72,7 +53,7 @@ begin
 end architecture behavioral;
 ```
 
-### VHDL reset and stimulus process (`tb_cnt_up_down`)
+#### Listing of VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` with syntax highlighting and asserts
 
 ```vhdl
     --------------------------------------------------------------------
@@ -117,16 +98,14 @@ end architecture behavioral;
 end architecture testbench;
 ```
 
-### Screenshot with waveforms
+
+#### Screenshot with simulated time waveforms; always display all inputs and outputs
 
 ![Screenshot](/Images/05-counter/scr1.png)
 
-# 3. Cvičenie
 
-## Top level
-
-### VHDL architecture (`top.vhd`)
-
+## 3. Top level. Submit:
+#### Listing of VHDL code from source file `top.vhd` with all instantiations for the 4-bit bidirectional counter.
 ```vhdl
 -- Architecture body for top level
 ------------------------------------------------------------------------
@@ -191,8 +170,7 @@ begin
 
 end architecture Behavioral;
 ```
-
-### Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base 
+#### Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments on your own. The image can be drawn on a computer or by hand.
 
 ![Screenshot](/Images/05-counter/img.png)
 
