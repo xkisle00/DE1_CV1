@@ -1,43 +1,24 @@
 # 4. Lab assignment
-## 1.Preparation tasks :
-#### Table with connection of 7-segment displays on Nexys A7 board :
+##1. Preparation tasks (done before the lab at home). Submit:
 
-| Display | Connection |
-| :-: | :-: |
-| AN7 | U13 |
-| AN6 | K2 |
-| AN5 | T14 |
-| AN4 | P14 |
-| AN3 | J14 |
-| AN2 | T9 |
-| AN1 | J18 |
-| AN0 | J17 |
-| CA | T10 | 
-| CB | R10 | 
-| CC | K16 | 
-| CD | K13 | 
-| CE | P15 | 
-| CF | T11 | 
-| CG | L18 | 
-| DP | H15 |
+    * Figure or table with connection of push buttons on Nexys A7 board
+| Button | Connection | ON | OFF |
+| :-: | :-: | :-: | :-: |
+| AN7 | U13 |AN7 | U13 |
+| AN6 | K2 | AN7 | U13 |
+| AN5 | T14 | AN7 | U13 |
+| AN4 | P14 | AN7 | U13 |
+| AN3 | J14 | AN7 | U13 |
 
-#### Decoder truth table for common anode 7-segment display:
+    * Table with calculated values.
 
-| Hex | Inputs | A | B | C | D | E | F | G |
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0000 | 0 | 0 | 0 | 0 | 0 | 0 | 1 |
-| 1 | 0001 | 1 | 0 | 0 | 1 | 1 | 1 | 1 |
-| 2 | 0010 | 0 | 0 | 1 | 0 | 0 | 1 | 0 |
-| 3 | 0011 | 0 | 0 | 0 | 0 | 1 | 1 | 0 |
-| 4 | 0100 | 1 | 0 | 0 | 1 | 1 | 0 | 0 |
-| 5 | 0101 | 0 | 1 | 0 | 0 | 1 | 0 | 0 |
-| 6 | 0110 | 0 | 1 | 0 | 0 | 0 | 0 | 0 |
-| 7 | 0111 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
-| 8 | 1000 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
-| 9 | 1001 | 0 | 0 | 0 | 0 | 1 | 0 | 0 |
-| A | 1010 | 0 | 0 | 0 | 1 | 0 | 0 | 0 |
-| b | 1011 | 1 | 1 | 0 | 0 | 0 | 0 | 0 |
-| C | 1100 | 0 | 1 | 1 | 0 | 0 | 0 | 1 |
-| d | 1101 | 1 | 0 | 0 | 0 | 0 | 1 | 0 |
-| E | 1110 | 0 | 1 | 1 | 0 | 0 | 0 | 0 |
-| F | 1111 | 0 | 1 | 1 | 1 | 0 | 0 | 0 |
+##2. Bidirectional counter. Submit:
+    * Listing of VHDL code of the process `p_cnt_up_down` with syntax highlighting.
+    * Listing of VHDL reset and stimulus processes from testbench file `tb_cnt_up_down.vhd` with syntax highlighting and asserts,
+    * Screenshot with simulated time waveforms; always display all inputs and outputs,
+
+##3. Top level. Submit:
+    * Listing of VHDL code from source file `top.vhd` with all instantiations for the 4-bit bidirectional counter.
+    * Image of the top layer including both counters, ie a 4-bit bidirectional counter from Part 4 and a 16-bit counter with a 10 ms time base from Part Experiments on your own. The image can be drawn on a computer or by hand.
+
+
