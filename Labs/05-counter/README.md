@@ -4,11 +4,11 @@
 #### Figure or table with connection of push buttons on Nexys A7 board
 | Button | Connection | ON | OFF |
 | :-: | :-: | :-: | :-: |
-| AN7 | U13 |AN7 | U13 |
-| AN6 | K2 | AN7 | U13 |
-| AN5 | T14 | AN7 | U13 |
-| AN4 | P14 | AN7 | U13 |
-| AN3 | J14 | AN7 | U13 |
+| BTNL | P17 | HIGH | LOW |
+| BTNR | M17 | HIGH | LOW |
+| BTNU | M18 | HIGH | LOW |
+| BTNU | P18 | HIGH | LOW |
+| BTNC | N17 | HIGH | LOW |
 
 #### Table with calculated values.
  | **Time interval** | **Number of clk periods** | **Number of clk periods in hex** | **Number of clk periods in binary** |
