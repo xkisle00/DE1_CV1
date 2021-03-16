@@ -1,7 +1,7 @@
 # 4. Lab assignment
 ## 1. Preparation tasks :
 
-#### Figure or table with connection of push buttons on Nexys A7 board :
+#### Table with connection of push buttons on Nexys A7 board :
 | Button | Connection | ON | OFF |
 | :-: | :-: | :-: | :-: |
 | BTNL | P17 | HIGH | LOW |
