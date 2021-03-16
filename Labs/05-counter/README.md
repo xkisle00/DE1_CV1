@@ -1,4 +1,4 @@
-# 4. Lab assignment
+# 5. Lab assignment
 ## 1. Preparation tasks :
 
 #### Table with connection of push buttons on Nexys A7 board :
