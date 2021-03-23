@@ -137,28 +137,25 @@ p_reset_gen : process
                
         s_dp_i  <= "0111";  
         
-        wait for 6 ms;
-        
+        wait for 5 ms;
         assert ((s_dig = "0111") and (s_seg = "0000110") and (s_dp_o = '0'))
-        report "Failed for input: '3.' " severity error;
+        report "Failed for input: '3.' " severity error;        
+
+       
+        wait for 5 ms;
+         assert ((s_dig = "1011") and (s_seg = "1001111") and (s_dp_o = '1'))
+        report "Failed for input: '1' " severity error;       
+
         
-        wait for 4 ms;
-        
-        assert ((s_dig = "1011") and (s_seg = "1001111") and (s_dp_o = '1'))
-        report "Failed for input: '1' " severity error;
-        
-        wait for 4 ms;
-        
+        wait for 5 ms;
         assert ((s_dig = "1101") and (s_seg = "1001100") and (s_dp_o = '1'))
-        report "Failed for input: '4' " severity error;
+        report "Failed for input: '4' " severity error;        
+
         
-        wait for 4 ms;
-        
+        wait for 5 ms;
         assert ((s_dig = "1110") and (s_seg = "0010010") and (s_dp_o = '1'))
-        report "Failed for input: '2' " severity error;
-        
-        
-    
+        report "Failed for input: '2' " severity error;        
+
         report "Stimulus process finished" severity note;
         wait;
     end process p_stimulus;
