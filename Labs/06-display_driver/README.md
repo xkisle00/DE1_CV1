@@ -217,4 +217,4 @@ end Behavioral;
 
 ```
 ## 3. Eight-digit driver : 
-![obrazok](/obrazky/cv6_nakreslene.png)
+![obrazok](/obrazky/cv6_nakreslene.jpg)
