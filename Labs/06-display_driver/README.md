@@ -70,8 +70,6 @@ architecture testbench of tb_driver_7seg_4digits is
     signal s_dig           : std_logic_vector(4 - 1 downto 0);
 
 begin
-    -- Connecting testbench signals with driver_7seg_4digits entity
-    -- (Unit Under Test)
     utt_driver_7seg_4digits : entity work.driver_7seg_4digits
     port map(
             clk      => s_clk_100MHz,
