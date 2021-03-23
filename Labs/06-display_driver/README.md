@@ -1,7 +1,7 @@
 # 6. Lab assignment
 ## 1. Preparation tasks :
 #### Timing diagram figure for displaying value 3.142 :
-
+![wave](/obrazky/wave.png)
 
 ## 2. Display driver :
 #### Listing of VHDL code of the process p_mux with syntax highlighting:
