@@ -16,6 +16,8 @@
 
 ```
 #### Screenshot with simulated time waveforms; always display all inputs and outputs :
+![screenshot](/obrazky/cv6_screen.png)
+
 #### Listing of VHDL architecture of the top layer
 
 ## 3. Eight-digit driver : 
