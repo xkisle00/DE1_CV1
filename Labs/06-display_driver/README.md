@@ -56,7 +56,7 @@ architecture testbench of tb_driver_7seg_4digits is
     constant c_CLK_100MHZ_PERIOD : time    := 10 ns;
 
     --Local signals
-    signal s_clk_100MHz : std_logic;
+    signal s_clk_100MHz    : std_logic;
     signal s_reset         : std_logic;
     
     signal s_data0         : std_logic_vector(4 - 1 downto 0);
