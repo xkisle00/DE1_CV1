@@ -12,7 +12,7 @@
 
 #### Screenshot(s) of the simulation, from which it is clear that start, pause and reset work correctly :
 
-![screenshot](/obrazky/cv6_screen.png)
+![screenshot](/obrazky/cv7_screen.png)
 
 #### VHDL code of the top layer architecture :
 ```vhdl
