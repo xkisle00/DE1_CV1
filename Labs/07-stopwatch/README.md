@@ -1,9 +1,6 @@
 # 7. Lab assignment
 ## 1. Preparation tasks :
 #### Timing diagram figure for displaying value 3.142 :
-
-
-```
 #### Screenshot
 ![screenshot](/obrazky/cv6_screen.png)
 
