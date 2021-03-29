@@ -2,31 +2,37 @@
 
 ## 1. Preparation tasks :
 #### Characteristic equations and completed tables for D, JK, T flip-flops :
+<!--
+\begin{align*}
+    q_{n+1}^D = &~ d &\\
+    q_{n+1}^{JK} = &~ j\cdot \overline{q_n}\ +\overline{k}\cdot q_n &\\
+    q_{n+1}^T =&~ t\cdot \overline{q_n}\ +\overline{t}\cdot q_n &\\
+\end{align*}-->
 
-   | **D** | **Qn** | **Q(n+1)** | **Comments** |
-   | :-: | :-: | :-: | :-- |
-   | 0 | 0 |  |  |
-   | 0 | 1 |  |  |
-   | 1 |  |  |  |
-   | 1 |  |  |  |
-
-   | **J** | **K** | **Qn** | **Q(n+1)** | **Comments** |
+   | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | 0 | 0 | 0 | 0 | No change |
-   | 0 | 0 | 1 | 1 | No change |
-   | 0 |  |  |  |  |
-   | 0 |  |  |  |  |
-   | 1 |  |  |  |  |
-   | 1 |  |  |  |  |
-   | 1 |  |  |  |  |
-   | 1 |  |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Sampled and stored |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | Sampled and stored |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Sampled and stored |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | Sampled and stored |
 
-   | **T** | **Qn** | **Q(n+1)** | **Comments** |
-   | :-: | :-: | :-: | :-- |
-   | 0 | 0 |  |  |
-   | 0 | 1 |  |  |
-   | 1 |  |  |  |
-   | 1 |  |  |  |
+   | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
+   | :-: | :-: | :-: | :-: | :-: | :-- |
+   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | 0 | No change |
+   | ![rising](images/eq_uparrow.png) | 0 | 0 | 1 | 1 | No change |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | 0 | Reset |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle (=invert) |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle (=invert) |
+
+   | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
+   | :-: | :-: | :-: | :-: | :-- |
+   | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | No change |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | No change |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | Toggle (=invert) |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | Toggle (=invert) |
 
 
 ## 2. D latch :
