@@ -2,6 +2,7 @@
 
 ## 1. Preparation tasks :
 #### Characteristic equations and completed tables for D, JK, T flip-flops :
+
 <!--
 \begin{align*}
     q_{n+1}^D = &~ d &\\
