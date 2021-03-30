@@ -50,7 +50,98 @@ begin
 ```
 #### Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch` file with syntax highlighting and asserts :
 ```vhdl
+    
+        p_reset_gen : process
+    begin
+        s_arst <= '0';
+        wait for 38 ns;
+        
+        s_arst <= '1';
+        wait for 53 ns;
 
+        s_arst <= '0';
+        wait for 100 ns;
+        
+        s_arst <= '1';
+        
+        wait;
+    end process p_reset_gen;
+
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+
+        s_d      <= '0';
+        s_en     <= '0';
+        
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+
+	   assert ((s_arst = '1') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
+	   report "Test failed " severity error;
+	
+        s_en     <= '1';
+        
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_en     <= '0';        -- en to 0 
+        wait for 100 ns;
+        s_d      <= '0';
+
+	   assert ((s_arst = '1') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
+	   report "Test failed " severity error;        
+        
+        
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';    
+        
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0';
+        wait for 10 ns;
+        s_d      <= '1';
+        wait for 10 ns;
+        s_d      <= '0'; 
+        
+                           
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+    
 ```
 #### Screenshot with simulated time waveforms; always display all inputs and outputs. The full functionality of the entity must be verified.
 ![screenshot](/obrazky/cv7_screen1.png)
