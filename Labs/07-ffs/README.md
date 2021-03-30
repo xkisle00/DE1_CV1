@@ -33,7 +33,6 @@
 #### VHDL code listing of the process `p_d_latch` with syntax highlighting :
 ```vhdl 
 
-begin
     p_d_latch : process (d, arst, en)
     begin
         if(arst = '1' ) then
@@ -51,7 +50,7 @@ begin
 #### Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch` file with syntax highlighting and asserts :
 ```vhdl
     
-        p_reset_gen : process
+    p_reset_gen : process
     begin
         s_arst <= '0';
         wait for 38 ns;
@@ -147,10 +146,43 @@ begin
 ![screenshot](/obrazky/cv7_screen1.png)
 
 ## 3. Flip-flops :
-#### VHDL code listing of the processes `p_d_ff_arst`, `p_d_ff_rst`, `p_jk_ff_rst`, `p_t_ff_rst` with syntax highlighting :
+#### VHDL code listing of the processes `p_d_ff_arst` :
+```vhdl
+    p_d_ff_arst : process (clk, arst)   
+    begin                               
+                                        
+        if(arst = '1' ) then            
+            q       <= '0';             
+            q_bar   <= '1';             
+                                        
+        elsif rising_edge(clk) then     
+            q       <= d;               
+            q_bar   <= not d;           
+                                        
+        end if;                         
+     end process p_d_ff_arst;           
+```
+#### VHDL code listing of the processes `p_d_ff_rst` :
 ```vhdl
 
 ```
+
+#### VHDL code listing of the processes `p_jk_ff_rst` :
+```vhdl
+
+```
+
+#### VHDL code listing of the processes `p_t_ff_rst` :
+```vhdl
+
+```
+
+#### VHDL code listing of the processes `p_d_ff_arst`
+```vhdl
+
+```
+
+
 #### Listing of VHDL clock, reset and stimulus processes from the testbench files with syntax highlighting and asserts :
 ```vhdl
 
