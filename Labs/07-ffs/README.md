@@ -204,12 +204,6 @@
 
 ```
 
-#### VHDL code listing of the processes `p_d_ff_arst`
-```vhdl
-
-```
-
-
 #### Listing of VHDL clock, reset and stimulus processes from the `tb_d_ff_arst` :
 ```vhdl
     
@@ -300,12 +294,24 @@
  
 ```
 #### Listing of VHDL clock, reset and stimulus processes from the `tb_d_ff_rst` :
+```vhdl
+
+```
 
 #### Listing of VHDL clock, reset and stimulus processes from the `tb_jk_ff_rst` :
+```vhdl
+
+```
 
 #### Listing of VHDL clock, reset and stimulus processes from the `tb_t_ff_rst` :
+```vhdl
+
+```
 #### Screenshot, with simulated time waveforms :
-![screenshot](/obrazky/cv7_screen2.png)
+![screenshot](/obrazky/cv7_screen_arst.png)
+![screenshot](/obrazky/cv7_screen_d_rst.png)
+![screenshot](/obrazky/cv7_screen_jk_rst.png)
+![screenshot](/obrazky/cv7_screen_t_rst.png)
 
 ## 4. Shift register :
 #### Image of the shift register schematic :
