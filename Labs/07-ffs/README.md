@@ -7,10 +7,10 @@
 
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
-   | ![rising](/obrazky/eq_uparrow.png) | 0 | 0 | 0 | Sampled and stored |
-   | ![rising](/obrazky/eq_uparrow.png) | 0 | 1 | 0 | Sampled and stored |
-   | ![rising](/obrazky/eq_uparrow.png) | 1 | 0 | 1 | Sampled and stored |
-   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 1 | Sampled and stored |
+   | ![rising](/obrazky/eq_uparrow.png) | 0 | 0 | 0 | No change |
+   | ![rising](/obrazky/eq_uparrow.png) | 0 | 1 | 0 | Invert |
+   | ![rising](/obrazky/eq_uparrow.png) | 1 | 0 | 1 | Invert |
+   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 1 | No change |
 
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-: | :-- |
