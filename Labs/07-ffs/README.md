@@ -18,15 +18,15 @@
    | ![rising](/obrazky/eq_uparrow.png) | 0 | 1 | 1 | 0 | Reset |
    | ![rising](/obrazky/eq_uparrow.png) | 1 | 0 | 0 | 1 | Set |
    | ![rising](/obrazky/eq_uparrow.png) | 1 | 0 | 1 | 1 | Set |
-   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle (=invert) |
-   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle (=invert) |
+   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 0 | 1 | Toggle |
+   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 1 | 0 | Toggle |
 
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](/obrazky/eq_uparrow.png) | 0 | 0 | 0 | No change |
    | ![rising](/obrazky/eq_uparrow.png) | 0 | 1 | 1 | No change |
-   | ![rising](/obrazky/eq_uparrow.png) | 1 | 0 | 1 | Toggle (=invert) |
-   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 0 | Toggle (=invert) |
+   | ![rising](/obrazky/eq_uparrow.png) | 1 | 0 | 1 | Toggle |
+   | ![rising](/obrazky/eq_uparrow.png) | 1 | 1 | 0 | Toggle |
 
 
 ## 2. D latch :
@@ -306,7 +306,98 @@
 ```
 #### Listing of VHDL clock, reset and stimulus processes from the `tb_d_ff_rst` :
 ```vhdl
+    --------------------------------------------------------------------
+    -- Clock generation process
+    --------------------------------------------------------------------
+    p_clk_gen : process
+    begin
+        while now < 40 ms loop        
+            s_clk_100MHz <= '0';
+            wait for c_CLK_100MHZ_PERIOD / 2;
+            s_clk_100MHz <= '1';
+            wait for c_CLK_100MHZ_PERIOD / 2;
+        end loop;
+        wait;
+    end process p_clk_gen;
+    
+    --------------------------------------------------------------------
+    -- Reset generation process
+    --------------------------------------------------------------------
+    
+     p_reset_gen : process
+        begin
+            s_rst <= '0';
+            wait for 28 ns;
+            
+            -- Reset activated
+            s_rst <= '1';
+            wait for 13 ns;
+    
+            --Reset deactivated
+            s_rst <= '0';
+            
+            wait for 17 ns;
+            
+            s_rst <= '1';
+            wait for 33 ns;
+            
+            wait for 660 ns;
+            s_rst <= '1';
+    
+            wait;
+     end process p_reset_gen;
 
+--------------------------------------------------------------------
+-- Data generation process
+--------------------------------------------------------------------
+    p_stimulus : process
+    begin
+        report "Stimulus process started" severity note;
+        
+        s_d  <= '0';
+        
+        wait for 14 ns;
+        s_d  <= '1';
+        wait for 2 ns;
+        
+        assert ((s_rst = '0') and (s_q = '1') and (s_q_bar = '0'))
+        report "Test failed" severity error;
+        
+        wait for 8 ns;
+        s_d  <= '0';
+        wait for 6 ns;
+        
+        wait for 4 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 5 ns;
+        
+        assert ((s_rst = '1') and (s_q = '1') and (s_q_bar = '0'))
+        report "Test failed" severity error;
+        
+        wait for 5 ns;
+        s_d  <= '0';
+        
+        wait for 14 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        wait for 10 ns;
+        s_d  <= '1';
+        wait for 10 ns;
+        s_d  <= '0';
+        
+        report "Stimulus process finished" severity note;
+        wait;
+    end process p_stimulus;
+   
 ```
 
 #### Listing of VHDL clock, reset and stimulus processes from the `tb_jk_ff_rst` :
