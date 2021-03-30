@@ -288,7 +288,7 @@
         wait for 6 ns;
         
         assert ((s_arst = '1') and (s_q = '0') and (s_q_bar = '1'))
-	    report "Test failed " severity error;
+	report "Test failed " severity error;
 	    
         wait for 4 ns;
     
@@ -478,7 +478,7 @@
         wait for 10   ns;
         
         assert ((s_rst = '0') and (s_q = '1') and (s_q_bar = '0'))
-	    report "Test failed " severity error;
+	report "Test failed " severity error;
 	    
         wait for 4 ns;
     
@@ -488,7 +488,7 @@
         wait for 4 ns;
         
         assert ((s_rst = '1') and (s_q = '0') and (s_q_bar = '1'))
-	    report "Test failed " severity error;
+	report "Test failed " severity error;
 	    
 	    wait for 3 ns;
 	    
