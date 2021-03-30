@@ -604,4 +604,4 @@
 
 ## 4. Shift register :
 #### Image of the shift register schematic :
-![obrazok](/obrazky/cv7_nakreslene.jpg)
+![obrazok](/obrazky/cv7_maluvka.jpg)
