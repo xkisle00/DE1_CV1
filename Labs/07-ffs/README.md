@@ -210,7 +210,7 @@
 ```
 
 
-#### Listing of VHDL clock, reset and stimulus processes from the "tb_d_ff_arst" :
+#### Listing of VHDL clock, reset and stimulus processes from the `tb_d_ff_arst` :
 ```vhdl
     
     --------------------------------------------------------------------
@@ -299,6 +299,11 @@
     end process p_stimulus;
  
 ```
+#### Listing of VHDL clock, reset and stimulus processes from the `tb_d_ff_rst` :
+
+#### Listing of VHDL clock, reset and stimulus processes from the `tb_jk_ff_rst` :
+
+#### Listing of VHDL clock, reset and stimulus processes from the `tb_t_ff_rst` :
 #### Screenshot, with simulated time waveforms :
 ![screenshot](/obrazky/cv7_screen2.png)
 
