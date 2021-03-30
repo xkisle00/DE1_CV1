@@ -3,7 +3,7 @@
 ## 1. Preparation tasks :
 #### Characteristic equations and completed tables for D, JK, T flip-flops :
 
-![obrazok](/obrazky/CodeCogsEqn.gif)
+![obrazok](/obrazky/CodeCogsEqn02.gif)
 
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
