@@ -212,7 +212,20 @@
 
 #### VHDL code listing of the processes `p_t_ff_rst` :
 ```vhdl
-
+   p_t_ff_rst : process (clk)
+      begin
+        if rising_edge(clk) then
+            if (rst = '1') then
+                s_q <= '0';
+            elsif (t = '1') then
+                s_q <= not s_q;
+            end if;
+        end if;
+    
+   end process p_t_ff_rst;
+    
+    q <= s_q;
+    q_bar <= not s_q;       
 ```
 
 #### Listing of VHDL clock, reset and stimulus processes from the `tb_d_ff_arst` :
