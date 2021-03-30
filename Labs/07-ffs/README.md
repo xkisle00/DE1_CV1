@@ -3,13 +3,6 @@
 ## 1. Preparation tasks :
 #### Characteristic equations and completed tables for D, JK, T flip-flops :
 
-<!--
-\begin{align*}
-    q_{n+1}^D = &~ d &\\
-    q_{n+1}^{JK} = &~ j\cdot \overline{q_n}\ +\overline{k}\cdot q_n &\\
-    q_{n+1}^T =&~ t\cdot \overline{q_n}\ +\overline{t}\cdot q_n &\\
-\end{align*}-->
-
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](/obrazky/eq_uparrow.png) | 0 | 0 | 0 | Sampled and stored |
@@ -38,7 +31,8 @@
 
 ## 2. D latch :
 #### VHDL code listing of the process `p_d_latch` with syntax highlighting :
-```vhdl
+```vhdl 
+
 begin
     p_d_latch : process (d, arst, en)
     begin
@@ -52,6 +46,7 @@ begin
         
         end if;
     end process p_d_latch;
+    
 ```
 #### Listing of VHDL reset and stimulus processes from the testbench `tb_d_latch` file with syntax highlighting and asserts :
 ```vhdl
