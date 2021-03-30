@@ -87,8 +87,8 @@ begin
         wait for 10 ns;
         s_d      <= '0';
 
-	   assert ((s_arst = '1') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
-	   report "Test failed " severity error;
+	assert ((s_arst = '1') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
+	report "Test failed " severity error;
 	
         s_en     <= '1';
         
@@ -107,8 +107,8 @@ begin
         wait for 100 ns;
         s_d      <= '0';
 
-	   assert ((s_arst = '1') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
-	   report "Test failed " severity error;        
+	assert ((s_arst = '1') and (s_en = '0') and (s_q = '0') and (s_q_bar = '1'))
+	report "Test failed " severity error;        
         
         
         wait for 10 ns;
