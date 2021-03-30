@@ -590,10 +590,16 @@
         wait;
     end process p_stimulus;
 ```
-#### Screenshot, with simulated time waveforms :
+#### `p_d_ff_arst` screenshot, with simulated time waveforms :
 ![screenshot](/obrazky/cv7_screen_arst.png)
+
+#### `p_d_ff_rst` screenshot, with simulated time waveforms :
 ![screenshot](/obrazky/cv7_screen_d_rst.png)
+
+#### `p_jk_ff_rst` screenshot, with simulated time waveforms :
 ![screenshot](/obrazky/cv7_screen_jk_rst.png)
+
+#### `p_t_ff_rst` screenshot, with simulated time waveforms :
 ![screenshot](/obrazky/cv7_screen_t_rst.png)
 
 ## 4. Shift register :
