@@ -143,7 +143,7 @@
 
 ## 3. Smart controller :
 #### State table :
-| **Current state** | **Direction South** | **Direction West** | **Delay** | **No cars** | **Cars West** | **Cars South** | **Cars both directions** |
+| **Current state** | **Direction South** | **Direction West** | **Delay** | **No cars** | **Cars to West** | **Cars to South** | **Cars Both Directions** |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | `goS`   | green  | red    | 3 sec | `goS` | `waitS` | `goS` | `waitS` |
 | `waitS` | yellow | red    | 0.5 sec | `goW` | `goW` | `goW` | `goW` |
