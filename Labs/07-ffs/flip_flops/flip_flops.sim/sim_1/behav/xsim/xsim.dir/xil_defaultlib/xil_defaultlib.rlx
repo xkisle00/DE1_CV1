@@ -1,0 +1,14 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_arst.vhd,1617100017,vhdl,,,,tb_d_ff_arst,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_rst.vhd,1617117906,vhdl,,,,tb_d_ff_rst,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_latch.vhd,1617094018,vhdl,,,,tb_d_latch,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_jk_ff_rst.vhd,1617117036,vhdl,,,,tb_jk_ff_rst,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_t_ff_rst.vhd,1617120488,vhdl,,,,tb_t_ff_rst,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/d_ff_arst.vhd,1617099241,vhdl,D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_arst.vhd,,,d_ff_arst,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/d_ff_rst.vhd,1617117936,vhdl,D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_ff_rst.vhd,,,d_ff_rst,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/d_latch.vhd,1617045242,vhdl,D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_d_latch.vhd,,,d_latch,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/jk_ff_rst.vhd,1617103299,vhdl,D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_jk_ff_rst.vhd,,,jk_ff_rst,,,,,,,,
+D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sources_1/new/t_ff_rst.vhd,1617118762,vhdl,D:/2021/DE1_GIT/Digital-electronics-1/Labs/07-ffs/flip_flops/flip_flops.srcs/sim_1/new/tb_t_ff_rst.vhd,,,t_ff_rst,,,,,,,,
