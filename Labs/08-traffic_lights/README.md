@@ -164,20 +164,15 @@ begin
 					if (s_cnt < c_DELAY_3SEC) then
 						s_cnt <= s_cnt + 1;
 					elsif (west_i = '1') then
-						-- Move to the next state
 						s_state <= waitS;
-						-- Reset local counter value
 						s_cnt   <= c_ZERO;
 					end if;
 
 				when waitS =>
-					-- WRITE YOUR CODE HERE
 					if (s_cnt < c_DELAY_0p5SEC) then
 						s_cnt <= s_cnt + 1;
 					else
-						-- Move to the next state
 						s_state <= goW;
-						-- Reset local counter value
 						s_cnt   <= c_ZERO;
 					end if;
 				
@@ -185,20 +180,15 @@ begin
 					if (s_cnt < c_DELAY_3SEC) then
 						s_cnt <= s_cnt + 1;
 					elsif (south_i = '1') then
-						-- Move to the next state
 						s_state <= waitW;
-						-- Reset local counter value
 						s_cnt   <= c_ZERO;
 					end if;
 					
 				when waitW =>
-					-- WRITE YOUR CODE HERE
 					if (s_cnt < c_DELAY_0p5SEC) then
 						s_cnt <= s_cnt + 1;
 					else
-						-- Move to the next state
 						s_state <= goS;
-						-- Reset local counter value
 						s_cnt   <= c_ZERO;
 					end if;
 					
