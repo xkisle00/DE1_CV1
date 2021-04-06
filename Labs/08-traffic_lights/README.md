@@ -132,6 +132,7 @@
 ```
 #### Screenshot(s) of the simulation, from which it is clear that controller works correctly :
 ![screenshot](/obrazky/cv8_screen1.png)
+
 ![screenshot](/obrazky/cv8_screen2.png)
 
 #### Listing of VHDL architecture of the top layer :
