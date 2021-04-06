@@ -142,10 +142,10 @@
 #### State table :
 | **Current state** | **Direction South** | **Direction West** | **Delay** | **No cars** | **Cars West** | **Cars South** | **Cars both directions** |
 | :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| `goS`   | green  | red    | at least 3 sec | `goS` | `waitS` | `goS` | `waitS` |
-| `waitS` | yellow | red    | 0.5 sec        | `goW` | `goW` | `goW` | `goW` |
-| `goW`   | red    | green  | at least 3 sec | `goW` | `goW` | `waitW` | `waitW` |
-| `waitW` | red    | yellow | 0.5 sec        | `goS` | `goS` | `goS` | `goS` |
+| `goS`   | green  | red    | 3 sec | `goS` | `waitS` | `goS` | `waitS` |
+| `waitS` | yellow | red    | 0.5 sec | `goW` | `goW` | `goW` | `goW` |
+| `goW`   | red    | green  | 3 sec | `goW` | `goW` | `waitW` | `waitW` |
+| `waitW` | red    | yellow | 0.5 sec | `goS` | `goS` | `goS` | `goS` |
 
 #### State diagram :
 
