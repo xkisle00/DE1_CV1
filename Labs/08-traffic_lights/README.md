@@ -143,12 +143,12 @@
 
 ## 3. Smart controller :
 #### State table :
-| **Current state** | **Direction South** | **Direction West** | **Delay** | **No cars** | **Cars to West** | **Cars to South** | **Cars Both Directions** |
-| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| `goS`   | green  | red    | 3 sec | `goS` | `waitS` | `goS` | `waitS` |
-| `waitS` | yellow | red    | 0.5 sec | `goW` | `goW` | `goW` | `goW` |
-| `goW`   | red    | green  | 3 sec | `goW` | `goW` | `waitW` | `waitW` |
-| `waitW` | red    | yellow | 0.5 sec | `goS` | `goS` | `goS` | `goS` |
+| **Current state** | **Direction South** | **Direction West** | **Delay** | **Output** |**No cars 00** | **Cars to West 01** | **Cars to South 10** | **Cars Both Directions 11** |
+| :-- | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| `goS`   | green  | red    | 3 sec | 100001 |  `goS` | `waitS` | `goS` | `waitS` |
+| `waitS` | yellow | red    | 0.5 sec | 100010 |  `goW` | `goW` | `goW` | `goW` |
+| `goW`   | red    | green  | 3 sec | 001100 |  `goW` | `goW` | `waitW` | `waitW` |
+| `waitW` | red    | yellow | 0.5 sec | 010100 |  `goS` | `goS` | `goS` | `goS` |
 
 #### State diagram :
 ![diagram](/obrazky/oprava.png)
