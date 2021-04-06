@@ -16,9 +16,7 @@
 
 ## 2. Traffic light controller :
 #### State diagram :
-
 ![diagram](/obrazky/diagram1.png)
-
 #### Listing of VHDL code of sequential process `p_traffic_fsm` with syntax highlighting :
 ```vhdl
     p_traffic_fsm : process(clk)
