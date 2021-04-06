@@ -112,35 +112,36 @@ end process p_traffic_fsm;
 ```
 #### Listing of VHDL code of combinatorial process `p_output_fsm` with syntax highlighting :
 ```vhdl
-p_output_fsm : process(s_state)
-begin
-	case s_state is
-		when STOP1 =>
-			south_o <= "100";   -- Red (RGB = 100)
-			west_o  <= "100";   -- Red (RGB = 100)
-
-			-- WRITE YOUR CODE HERE
-		when WEST_GO =>
-			south_o <= "100";  -- Red
-			west_o  <= "010";  -- Green
-		when WEST_WAIT =>
-			south_o <= "100";  -- Red
-			west_o  <= "110";  -- Yellow
-		when STOP2 =>
-			south_o <= "100";  -- Red
-			west_o  <= "100";  -- Red
-		when SOUTH_GO =>
-			south_o <= "010";  -- Green
-			west_o  <= "100";  -- Red
-		when SOUTH_WAIT =>
-			south_o <= "110";  -- Yellow
-			west_o  <= "100";  -- Red
-
-		when others =>
-			south_o <= "100";  -- Red
-			west_o  <= "100";  -- Red
-	end case;
-end process p_output_fsm;
+    p_output_fsm : process(s_state)
+    begin
+        case s_state is
+            when STOP1 =>
+                south_o <= c_RED;
+                west_o  <= c_RED;
+                
+            -- MY CODE
+            when WEST_GO =>
+                south_o <= "100";   -- R = 100
+                west_o  <= "010";   -- G = 010
+            when WEST_WAIT =>
+                south_o <= "100";   -- R = 100
+                west_o  <= "110";   -- Y = 110
+            when STOP2 =>
+                south_o <= "100";   -- R = 100
+                west_o  <= "100";   -- R = 100
+            when SOUTH_GO =>
+                south_o <= "010";   -- G = 010
+                west_o  <= "100";   -- R = 100
+            when SOUTH_WAIT =>
+                south_o <= "110";   -- Y = 110
+                west_o  <= "100";   -- R = 100
+    
+    
+            when others =>
+                south_o <= "100";   -- R = 100
+                west_o  <= "100";   -- R = 100
+        end case;
+    end process p_output_fsm;
 ```
 #### Screenshot(s) of the simulation, from which it is clear that controller works correctly :
 ![screenshot](/obrazky/cv8_screen1.png)
