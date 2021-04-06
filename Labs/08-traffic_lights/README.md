@@ -8,6 +8,8 @@
 | **State** | A | A | B | C | C | D | A | B | C | D | B | B | B | C | D | B |
 | **Output R** | `0` | `0` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `1` | `0` | `0` | `0` | `0` | `1` | `0` |
 
+#### Figure with connection of RGB LEDs on Nexys A7 board :
+
 #### Completed table with color settings :
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
@@ -110,15 +112,19 @@
             when WEST_GO =>
                 south_o <= "100";   -- R = 100
                 west_o  <= "010";   -- G = 010
+		
             when WEST_WAIT =>
                 south_o <= "100";   -- R = 100
                 west_o  <= "110";   -- Y = 110
+		
             when STOP2 =>
                 south_o <= "100";   -- R = 100
                 west_o  <= "100";   -- R = 100
+		
             when SOUTH_GO =>
                 south_o <= "010";   -- G = 010
                 west_o  <= "100";   -- R = 100
+		
             when SOUTH_WAIT =>
                 south_o <= "110";   -- Y = 110
                 west_o  <= "100";   -- R = 100
@@ -134,8 +140,6 @@
 ![screenshot](/obrazky/cv8_screen1.png)
 
 ![screenshot](/obrazky/cv8_screen2.png)
-
-#### Listing of VHDL architecture of the top layer :
 
 ## 3. Smart controller :
 #### State table :
