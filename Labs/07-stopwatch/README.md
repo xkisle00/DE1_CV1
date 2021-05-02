@@ -16,8 +16,8 @@
 | ck_io10 | Button_reset |
 | ck_io11 | Button_set |
 
-</table>
-<table>
+
+
 | porty | TOP výstup |
 |  :-: | :-: | 
 | seg_o | ja|
