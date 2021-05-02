@@ -1,5 +1,5 @@
 |VSTUPY|VYSTUPY|
- 
+|  -- | -- | 
 
 | TOP vstup | porty |
 |  :-: | :-: | 
