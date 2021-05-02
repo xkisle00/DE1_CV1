@@ -1,6 +1,6 @@
 |VSTUPY|VYSTUPY|
 |--|--|
-|<table> <tr><th>TOP vstup</th><th>porty</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr> </table>| <table> <tr><th>TOP výstup</th><th>porty</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr> </table>|
+|<table> <tr><th>TOP vstup</th><th>porty</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 3</td><td>Row 1 Column 2</td></tr> </table>| <table> <tr><th>TOP výstup</th><th>porty</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr> </table>|
 
 
 
