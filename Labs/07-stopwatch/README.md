@@ -4,8 +4,6 @@
 <tr><th> VSTUPY </th><th> VYSTUPY </th></tr>
 <tr><td>
 
-|Table 1| Middle | Table 2|
-
 | TOP vstup | porty |
 |  :-: | :-: | 
 | ck_io0 | Button_0 |
