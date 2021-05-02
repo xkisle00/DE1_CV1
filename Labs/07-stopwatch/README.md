@@ -2,9 +2,6 @@
 |--|--|
 |<table> 
 
-
-
-#### Tabulka vstupov :
 | TOP vstup | porty |
 |  :-: | :-: | 
 | ck_io0 | Button_0 |
@@ -19,8 +16,8 @@
 | ck_io9 | Button_9 |
 | ck_io10 | Button_reset |
 | ck_io11 | Button_set |
-</table>|
-#### Tabulka výstupov :
+
+
 | porty | TOP výstup |
 |  :-: | :-: | 
 | seg_o | ja|
@@ -28,3 +25,4 @@
 | seg_3_o | jc |
 | seg_4_o | jd|
 | relay_0 | ck_io12 |
+</table>|
