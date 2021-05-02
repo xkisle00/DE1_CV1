@@ -18,11 +18,7 @@
 | ck_io9 | Button_9 |
 | ck_io10 | Button_reset |
 | ck_io11 | Button_set |
-
 </td><td>
-
-
-
 | porty | TOP výstup |
 |  :-: | :-: | 
 | seg_o | ja|
