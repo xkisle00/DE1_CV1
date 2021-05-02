@@ -1,6 +1,6 @@
 |VSTUPY|VYSTUPY|
 |--|--|
-|<table> <tr><th>TOP vstup</th><th>porty</th></tr><tr><td>| ck_io0 | Button_0 |</td></tr> </table>| <table> <tr><th>TOP výstup</th><th>porty</th></tr><tr><td>Row 1 Column 1</td><td>Row 1 Column 2</td></tr> </table>|
+|<table> 
 
 
 
@@ -19,7 +19,7 @@
 | ck_io9 | Button_9 |
 | ck_io10 | Button_reset |
 | ck_io11 | Button_set |
-
+</table>|
 #### Tabulka výstupov :
 | porty | TOP výstup |
 |  :-: | :-: | 
