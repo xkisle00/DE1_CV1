@@ -1,20 +1,11 @@
 
 
 <table>
-<tr><th>Table 1 Heading 1 </th><th>Table 1 Heading 2</th></tr>
+<tr><th> VSTUPY </th><th> VYSTUPY </th></tr>
 <tr><td>
 
 |Table 1| Middle | Table 2|
-|--|--|--|
-|a| not b|and c |
 
-</td><td>
-
-|b|1|2|3| 
-|--|--|--|--|
-|a|s|d|f|
-
-</td></tr> </table>
 | TOP vstup | porty |
 |  :-: | :-: | 
 | ck_io0 | Button_0 |
@@ -30,6 +21,8 @@
 | ck_io10 | Button_reset |
 | ck_io11 | Button_set |
 
+</td><td>
+
 
 
 | porty | TOP výstup |
@@ -39,3 +32,7 @@
 | seg_3_o | jc |
 | seg_4_o | jd|
 | relay_0 | ck_io12 |
+
+</td></tr> </table>
+
+
